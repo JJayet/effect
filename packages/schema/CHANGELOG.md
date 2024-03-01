@@ -1,5 +1,23 @@
 # @effect/schema
 
+## 0.63.3
+
+### Patch Changes
+
+- [#2234](https://github.com/Effect-TS/effect/pull/2234) [`465be79`](https://github.com/Effect-TS/effect/commit/465be7926afe98169837d8a4ed5ebc059a732d21) Thanks [@gcanti](https://github.com/gcanti)! - add `BatchingAnnotation`, default value: `false`
+
+  Example:
+
+  ```ts
+  const schema = S.struct({
+    a: S.string,
+    b: S.number,
+  }).pipe(S.batching(true /* boolean | "inherit" | undefined */));
+  ```
+
+- Updated dependencies [[`de74eb8`](https://github.com/Effect-TS/effect/commit/de74eb80a79eebde5ff645033765e7a617e92f27)]:
+  - effect@2.4.2
+
 ## 0.63.2
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # effect
 
+## 2.4.2
+
+### Patch Changes
+
+- [#2233](https://github.com/Effect-TS/effect/pull/2233) [`de74eb8`](https://github.com/Effect-TS/effect/commit/de74eb80a79eebde5ff645033765e7a617e92f27) Thanks [@gcanti](https://github.com/gcanti)! - Struct: make `pick` / `omit` dual
+
 ## 2.4.1
 
 ### Patch Changes
